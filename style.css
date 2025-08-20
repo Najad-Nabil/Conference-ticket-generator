@@ -15,9 +15,9 @@ body {
 }
 
 .common-div-class {
-    border: 1px solid white;
     background-color: transparent;
     color: white;
+    /* border: 1px solid white; */
 }
 
 #logo-div {
@@ -28,15 +28,65 @@ body {
 }
 
 #para-div {
-    flex: 2.5;
+    flex: 2.1;
+    text-align: center;
 }
 
 #input-div {
-    flex: 6.8;
+    flex: 7.2;
 }
 
 #main-logo {
     width: 50%;
+}
+
+#upload-avatar {
+    border: 1px dotted white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+}
+
+.input-box {
+    width: 100%;
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+}
+
+#instruction {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-box-specifier {
+    margin-bottom: 8px;
+}
+
+#upload-icon {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 15%;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 25%;
+}
+
+#upload-avatar p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#generate-ticket {
+    width: 100%;
+    height: 8%;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 8px;
 }
 
 
