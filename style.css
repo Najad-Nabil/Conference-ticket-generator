@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./assets/images/background-mobile.png");
+    background-size: cover;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.common-div-class {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#logo-div {
+    flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#para-div {
+    flex: 2.5;
+}
+
+#input-div {
+    flex: 6.8;
+}
+
+#main-logo {
+    width: 50%;
+}
+
+
+
+
+@media (min-width:426px) {
+    body {
+        background: url(./assets/images/background-desktop.png);
+        background-size: cover; 
+    }
+
+    #main-logo {
+        width: 20%;
+    }
+}
