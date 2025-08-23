@@ -98,7 +98,23 @@ body {
         background-size: cover; 
     }
 
+    #main-container {
+        width: 50%;
+        margin-left: 25%;
+    }
+
     #main-logo {
-        width: 20%;
+        width: 30%;
+    }
+
+    #para-div h2 {
+        font-size: 35px;
+        
+    }
+
+    #input-div {
+        width: 60%;
+        margin-left: 20%;
+        height: 80%;
     }
 }
